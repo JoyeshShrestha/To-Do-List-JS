@@ -1,0 +1,11 @@
+body{
+    margin: 10%;
+}
+
+button{
+  color: white ;
+  padding-left: 10px;
+}
+.items{
+    height: 40px;
+}
