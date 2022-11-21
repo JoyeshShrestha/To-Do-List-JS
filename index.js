@@ -1,8 +1,30 @@
-let L = document.querySelector('.items');
- 
-console.log(L);
+let myForm= document.querySelector('#myform');
 
-L.addEventListener('click', (e)=>
-{
-    ul.document.lastElementChild.innerHTML=`<h1>$(L)</h1>`;
+let userList= document.querySelector('#itemharu');
+
+let butt= document.querySelector('#demo');
+
+let nameInput= document.querySelector('#name');
+
+let press = document.querySelector('#press');
+
+let del = okdelete();
+
+
+function okdelete(){
+
+}
+
+press.addEventListener('click',function(){
+    var paragraph = document.createElement('p');
+    paragraph.innerText= nameInput.value;
+    userList.appendChild(paragraph);
+    nameInput.value="";
+    paragraph.addEventListener('click', function(){
+        paragraph.style.textDecoration="line-through";
+    })
+    paragraph.addEventListener('dblclick', function(){
+        userList.removeChild(paragraph);
+    })
 })
+

@@ -10,28 +10,45 @@
     <link href="index.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="row">
-        <div class="col-2 col-sm-3">
-            <form action="" >
-                <input type="text" class="items"
-            </form>
-        </div>
-        
-        <div class="col-1"><button type="button" class="btn btn-outline-success">+</button>
-        </div>
-     </div>
-     <div class="row">   
-        <div class="col>
+<body class="dadbod">
+    <div class="container pt-1 pb-4">
 
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    Your List
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item users"></li>
+        <div class="row">
+            <div class="col-6">
+
+                <div class="title pt-4">TO-LIST</div>
+
+                <div class="title2">where actual shits get done...</div>
+                <form action="post" id="myform">
+                <div class="row mt-3">
+                    <!-- input text -->
                    
-                </ul>
+                        
+                    <div class="col">
+                        <input type="text" id="name" class="items">
+                    
+                    </div>
+                    <!-- Button -->
+                    <div class="col">
+                        <button type="button" class="btn btn-outline-dark butt" id="press">Add</button>
+
+                    </div>
+               
+                </div>
+            </form>
+                <div class="row mt-5">
+                    <div class="title2">Lists</div>
+                    <div class="col">
+                        <div class="items" id="itemharu">
+                        <!-- <div class=" col-3item"> <button class="btn btn-outline-danger buttlist ms-4">Remove</button></div> -->
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- image -->
+            <div class="col-6 .img-fluid">
+                <img src="1.jpg" alt="">
             </div>
         </div>
     </div>
@@ -40,6 +57,7 @@
         crossorigin="anonymous"></script>
 </body>
 
+<script src="index.js"></script>
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -48,5 +66,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
     crossorigin="anonymous"></script>
-
-    <script src="index.js"></script>

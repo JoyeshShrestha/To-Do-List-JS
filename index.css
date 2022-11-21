@@ -1,11 +1,33 @@
 body{
-    margin: 10%;
+    margin: 0;
+  }
+
+.buttlist{
+  font: 0.75rem "Open Sans";
+}
+.item{ 
+  margin: 5px;
+ 
 }
 
-button{
-  color: white ;
-  padding-left: 10px;
+.butt{
+  font: 0.9rem "Open Sans";
 }
-.items{
-    height: 40px;
+
+.butt:hover{
+background-color: rgb(0, 0, 0);
+}
+
+.todolist{
+  font: 3rem "Open Sans";
+}
+.title{
+  font: 3rem "Lora";
+  font-weight:;
+}
+
+.title2{
+  font: 0.95rem "Open Sans";
+  color: rgba(29, 29, 29, 0.732);
+  margin-top: -10px;
 }
